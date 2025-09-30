@@ -1,6 +1,7 @@
 <template>
-  <Dashboard />
+  <RouterView />
 </template>
+
 <script setup lang="ts">
-import Dashboard from '@/components/Dashboard.vue'
+import { RouterView } from 'vue-router'
 </script>
